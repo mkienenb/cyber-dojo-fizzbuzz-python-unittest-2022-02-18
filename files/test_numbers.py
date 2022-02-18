@@ -12,6 +12,3 @@ class TestNumbers(unittest.TestCase):
     def test_should_display_each_number(self):
         self.numbers.show_numbers(2)
         self.assertEqual(2, self.display_count)
-
-if __name__ == '__main__':
-    unittest.main()  # pragma: no cover
