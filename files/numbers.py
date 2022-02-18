@@ -5,5 +5,5 @@ class Numbers:
 
         def show_numbers(self, count, render):
             for i in range(count):
-                self.display("txt")
+                self.display(render(i + 1))
             

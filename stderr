@@ -1,24 +1,29 @@
-......FF
+......EE
 ======================================================================
-FAIL: test_should_display_each_number (test_numbers.TestNumbers)
+ERROR: test_should_display_each_number (test_numbers.TestNumbers)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 16, in test_should_display_each_number
-    self.assertEqual(2, self.display)
-AssertionError: 2 != <bound method TestNumbers.display of <tes[61 chars]ber>>
+  File "/sandbox/test_numbers.py", line 15, in test_should_display_each_number
+    self.numbers.show_numbers(2, self.render)
+  File "/sandbox/numbers.py", line 8, in show_numbers
+    self.display(render(i + 1))
+  File "/sandbox/test_numbers.py", line 19, in render
+    return "x" + number
+TypeError: can only concatenate str (not "int") to str
 
 ======================================================================
-FAIL: test_should_render_each_number (test_numbers.TestNumbers)
+ERROR: test_should_render_each_number (test_numbers.TestNumbers)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 23, in test_should_render_each_number
-    self.assertEqual("x1", self.displayed[0])
-AssertionError: 'x1' != 'txt'
-- x1
-+ txt
-
+  File "/sandbox/test_numbers.py", line 22, in test_should_render_each_number
+    self.numbers.show_numbers(1, self.render)
+  File "/sandbox/numbers.py", line 8, in show_numbers
+    self.display(render(i + 1))
+  File "/sandbox/test_numbers.py", line 19, in render
+    return "x" + number
+TypeError: can only concatenate str (not "int") to str
 
 ----------------------------------------------------------------------
 Ran 8 tests in 0.001s
 
-FAILED (failures=2)
+FAILED (errors=2)
