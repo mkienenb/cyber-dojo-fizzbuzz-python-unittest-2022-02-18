@@ -1,4 +1,5 @@
 from numbers import Numbers
+from fizzbuzz import Fizzbuzz
 import unittest
 
 class TestNumbers(unittest.TestCase):
@@ -21,3 +22,8 @@ class TestNumbers(unittest.TestCase):
     def test_should_render_each_number(self):
         self.numbers.show_numbers(1, self.render)
         self.assertEqual("x1", self.displayed[0])
+        
+    def test_should_fizz_buzz(self):
+        numbers = Numbers(print)
+        numbers.show_numbers(100, Fizzbuzz().fizzbuzz)
+
