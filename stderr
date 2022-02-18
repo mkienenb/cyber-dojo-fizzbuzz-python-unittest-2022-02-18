@@ -1,21 +1,16 @@
-FF
+F
 ======================================================================
-FAIL: test_global_function (test_hiker.TestHiker)
+FAIL: test_should_return_number_for_integer (test_fizzbuzz.TestFizzBuzz)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_hiker.py", line 8, in test_global_function
-    self.assertEqual(42, global_answer())
-AssertionError: 42 != 54
+  File "/sandbox/test_fizzbuzz.py", line 8, in test_should_return_number_for_integer
+    self.assertEqual("2", Fizzbuzz().fizzbuzz(2))
+AssertionError: '2' != ''
+- 2
++ 
 
-======================================================================
-FAIL: test_instance_method (test_hiker.TestHiker)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_hiker.py", line 11, in test_instance_method
-    self.assertEqual(42, Hiker().instance_answer())
-AssertionError: 42 != 54
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Ran 1 test in 0.001s
 
-FAILED (failures=2)
+FAILED (failures=1)
