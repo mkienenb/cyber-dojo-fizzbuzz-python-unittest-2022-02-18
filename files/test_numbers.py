@@ -26,4 +26,4 @@ class TestNumbers(unittest.TestCase):
     def test_should_fizz_buzz(self):
         numbers = Numbers(print)
         numbers.show_numbers(100, Fizzbuzz().fizzbuzz)
-
+        
