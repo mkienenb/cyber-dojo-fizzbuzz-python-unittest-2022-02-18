@@ -1,5 +1,3 @@
-from fizzbuzz import Fizzbuzz
-
 class Numbers:
 
         def __init__(self, display):
