@@ -1,4 +1,4 @@
-/sandbox/fizzbuzz.py:6:27: E703 statement ends with a semicolon
+/sandbox/fizzbuzz.py:8:27: E703 statement ends with a semicolon
         return str(number);
                           ^
     Compound statements (on the same line) are generally
