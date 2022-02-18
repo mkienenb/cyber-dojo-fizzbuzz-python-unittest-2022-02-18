@@ -4,5 +4,6 @@ class Numbers:
             self.display = display
 
         def show_numbers(self, count):
-            pass
+            for i in range(count):
+                self.display("txt")
             

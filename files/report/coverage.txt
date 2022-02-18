@@ -1,6 +1,8 @@
 Name               Stmts   Miss  Cover   Missing
 ------------------------------------------------
 fizzbuzz.py           10      0   100%
+numbers.py             6      0   100%
 test_fizzbuzz.py      16      0   100%
+test_numbers.py       11      0   100%
 ------------------------------------------------
-TOTAL                 26      0   100%
+TOTAL                 43      0   100%
