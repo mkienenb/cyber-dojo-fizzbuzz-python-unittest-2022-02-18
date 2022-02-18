@@ -16,7 +16,7 @@ class TestNumbers(unittest.TestCase):
         self.assertEqual(2, self.display)
 
     def render(self, number):
-        return "x" + number
+        return "x" + str(number)
 
     def test_should_render_each_number(self):
         self.numbers.show_numbers(1, self.render)
