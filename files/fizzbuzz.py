@@ -1,8 +1,9 @@
 class Fizzbuzz:
 
     def fizzbuzz(self, number):
+        result = str(number)
         if number == 3:
-            return "Fizz"
+            result = "Fizz"
         if number == 5:
-            return "Buzz"
-        return str(number);
+            result = "Buzz"
+        return result
