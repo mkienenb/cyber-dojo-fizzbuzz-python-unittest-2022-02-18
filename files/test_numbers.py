@@ -3,7 +3,7 @@ import unittest
 
 class TestNumbers(unittest.TestCase):
     def setup(self):
-        self.display_count + 0
+        self.display_count = 0
         self.numbers = Numbers(self.display)
 
     def display(self, txt):
