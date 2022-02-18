@@ -1,16 +1,21 @@
-F.
-======================================================================
-FAIL: test_should_return_fizz_for_three (test_fizzbuzz.TestFizzBuzz)
-----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_fizzbuzz.py", line 11, in test_should_return_fizz_for_three
-    self.assertEqual("Fizz", Fizzbuzz().fizzbuzz(3))
-AssertionError: 'Fizz' != '3'
-- Fizz
-+ 3
-
-
-----------------------------------------------------------------------
-Ran 2 tests in 0.001s
-
-FAILED (failures=1)
+  File "/usr/local/lib/python3.9/unittest/__main__.py", line 18, in <module>
+    main(module=None)
+  File "/usr/local/lib/python3.9/unittest/main.py", line 100, in __init__
+    self.parseArgs(argv)
+  File "/usr/local/lib/python3.9/unittest/main.py", line 147, in parseArgs
+    self.createTests()
+  File "/usr/local/lib/python3.9/unittest/main.py", line 158, in createTests
+    self.test = self.testLoader.loadTestsFromNames(self.testNames,
+  File "/usr/local/lib/python3.9/unittest/loader.py", line 220, in loadTestsFromNames
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "/usr/local/lib/python3.9/unittest/loader.py", line 220, in <listcomp>
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "/usr/local/lib/python3.9/unittest/loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "/sandbox/test_fizzbuzz.py", line 1, in <module>
+    from fizzbuzz import Fizzbuzz
+  File "/sandbox/fizzbuzz.py", line 4
+    if (number == 3);
+                    ^
+SyntaxError: invalid syntax

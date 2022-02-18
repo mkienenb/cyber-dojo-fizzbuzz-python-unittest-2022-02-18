@@ -75,5 +75,21 @@
       46,
       451786
     ]
+  },
+  {
+    "duration": 0.924297,
+    "colour": "amber",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 5,
+    "time": [
+      2022,
+      2,
+      18,
+      16,
+      18,
+      45,
+      638110
+    ]
   }
 ]
