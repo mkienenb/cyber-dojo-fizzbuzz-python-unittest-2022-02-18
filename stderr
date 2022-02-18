@@ -1,5 +1,16 @@
-...
+.F..
+======================================================================
+FAIL: test_should_return_fizz_for_multiples_of_three (test_fizzbuzz.TestFizzBuzz)
 ----------------------------------------------------------------------
-Ran 3 tests in 0.000s
+Traceback (most recent call last):
+  File "/sandbox/test_fizzbuzz.py", line 17, in test_should_return_fizz_for_multiples_of_three
+    self.assertEqual("Fizz", Fizzbuzz().fizzbuzz(9))
+AssertionError: 'Fizz' != '9'
+- Fizz
++ 9
 
-OK
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
