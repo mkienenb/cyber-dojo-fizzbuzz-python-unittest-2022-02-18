@@ -1,5 +1,24 @@
-.......
+......FF
+======================================================================
+FAIL: test_should_display_each_number (test_numbers.TestNumbers)
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 16, in test_should_display_each_number
+    self.assertEqual(2, self.display)
+AssertionError: 2 != <bound method TestNumbers.display of <tes[61 chars]ber>>
 
-OK
+======================================================================
+FAIL: test_should_render_each_number (test_numbers.TestNumbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/sandbox/test_numbers.py", line 23, in test_should_render_each_number
+    self.assertEqual("x1", self.displayed[0])
+AssertionError: 'x1' != 'txt'
+- x1
++ txt
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=2)
