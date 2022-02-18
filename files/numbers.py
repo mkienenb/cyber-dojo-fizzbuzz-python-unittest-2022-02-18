@@ -6,4 +6,3 @@ class Numbers:
     def show_numbers(self, count, render):
         for i in range(count):
             self.display(render(i + 1))
-            
