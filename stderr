@@ -1,5 +1,16 @@
-....
+.F...
+======================================================================
+FAIL: test_should_return_buzz_for_multiples_of_five (test_fizzbuzz.TestFizzBuzz)
 ----------------------------------------------------------------------
-Ran 4 tests in 0.000s
+Traceback (most recent call last):
+  File "/sandbox/test_fizzbuzz.py", line 20, in test_should_return_buzz_for_multiples_of_five
+    self.assertEqual("Buzz", Fizzbuzz().fizzbuzz(10))
+AssertionError: 'Buzz' != '10'
+- Buzz
++ 10
 
-OK
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)

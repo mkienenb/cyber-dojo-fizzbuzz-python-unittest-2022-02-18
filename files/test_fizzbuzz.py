@@ -16,6 +16,8 @@ class TestFizzBuzz(unittest.TestCase):
     def test_should_return_fizz_for_multiples_of_three(self):
         self.assertEqual("Fizz", Fizzbuzz().fizzbuzz(9))
 
+    def test_should_return_buzz_for_multiples_of_five(self):
+        self.assertEqual("Buzz", Fizzbuzz().fizzbuzz(10))
 
 if __name__ == '__main__':
     unittest.main()  # pragma: no cover
