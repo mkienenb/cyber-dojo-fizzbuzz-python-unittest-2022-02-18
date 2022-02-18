@@ -1,4 +1,4 @@
 class Fizzbuzz:
 
     def fizzbuzz(self, number):
-        return "";
+        return str(number);

@@ -1,16 +1,5 @@
-F
-======================================================================
-FAIL: test_should_return_number_for_integer (test_fizzbuzz.TestFizzBuzz)
+.
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/sandbox/test_fizzbuzz.py", line 8, in test_should_return_number_for_integer
-    self.assertEqual("2", Fizzbuzz().fizzbuzz(2))
-AssertionError: '2' != ''
-- 2
-+ 
+Ran 1 test in 0.000s
 
-
-----------------------------------------------------------------------
-Ran 1 test in 0.001s
-
-FAILED (failures=1)
+OK
