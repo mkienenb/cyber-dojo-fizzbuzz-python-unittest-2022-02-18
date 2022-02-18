@@ -2,7 +2,7 @@ from numbers import Numbers
 import unittest
 
 class TestNumbers(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         self.display_count = 0
         self.numbers = Numbers(self.display)
 

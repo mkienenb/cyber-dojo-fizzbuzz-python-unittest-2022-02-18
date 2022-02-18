@@ -1,13 +1,13 @@
-......E
+......F
 ======================================================================
-ERROR: test_should_display_each_number (test_numbers.TestNumbers)
+FAIL: test_should_display_each_number (test_numbers.TestNumbers)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/sandbox/test_numbers.py", line 13, in test_should_display_each_number
-    self.numbers.show_numbers(2)
-AttributeError: 'TestNumbers' object has no attribute 'numbers'
+  File "/sandbox/test_numbers.py", line 14, in test_should_display_each_number
+    self.assertEqual(2, self.display_count)
+AssertionError: 2 != 0
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.002s
 
-FAILED (errors=1)
+FAILED (failures=1)
