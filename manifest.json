@@ -1,0 +1,24 @@
+{
+  "display_name": "Python, unittest",
+  "image_name": "cyberdojofoundation/python_unittest:51c7d93",
+  "filename_extension": [
+    ".py"
+  ],
+  "tab_size": 4,
+  "progress_regexs": [
+    "FAILED \\(failures=\\d+\\)",
+    "OK"
+  ],
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2022,
+    2,
+    18,
+    16,
+    2,
+    47,
+    252883
+  ],
+  "id": "5VtUFB"
+}
