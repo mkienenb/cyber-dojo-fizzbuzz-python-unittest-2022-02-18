@@ -1,9 +1,11 @@
 class Fizzbuzz:
 
     def fizzbuzz(self, number):
-        result = str(number)
+        result = ""
         if (number % 3) == 0:
-            result = "Fizz"
+            result = result + "Fizz"
         if (number % 5) == 0:
-            result = "Buzz"
+            result = result + "Buzz"
+        if result == "":
+            result = str(number)
         return result
